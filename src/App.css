@@ -1,0 +1,136 @@
+*{
+
+  box-sizing: border-box;
+}
+
+.App {
+
+  min-height: 100vh;
+  flex: 6;
+}
+
+.main {
+  min-height: 100vh;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+
+}
+.routines-container {
+
+}
+.routine {
+ background-color: #ffffff;
+  width: 80vw;
+  
+ 
+ 
+}
+/* .activity-container {
+
+
+ 
+} */
+
+.activities {
+  width: 80vw;
+
+
+}
+
+img {
+  height: 40vh;
+  position: relative;
+}
+
+image {
+  height: 80vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
+}
+
+
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+  margin-top: 10px;
+ 
+  
+}
+
+.nav-items {
+  list-style: none;
+  display: flex;
+  
+}
+
+.nav-items a {
+  padding: 12px;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  margin-right: 5px;
+ 
+  
+ 
+}
+
+.login {
+ background-color: rgb(233, 230, 230);
+ align-items: center;
+ padding: 2px;
+  color: rgb(9, 9, 9);
+  text-decoration: none;
+  margin-right: 5px;
+  margin-left: 5px;
+  text-transform: uppercase;
+
+
+}
+
+footer{
+  background-color: #ffffff;
+  height: 10vh;
+
+}
+.login-container {
+  /* display: flex; */
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  height: 90vh;
+  
+  margin: 5px;
+  padding: 20px;
+}
+
+.registration-div {
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  height: 90vh;
+ 
+}
+.registration-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+  height: 50vh;
+  
+  margin: 5px;
+  padding: 20px;
+}
+.register-input {
+  margin: 5px;
+}
+
+.register-btn {
+
+}
